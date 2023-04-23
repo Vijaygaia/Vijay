@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: linear-gradient(to right,red,blue);
+        }
+        #top-id{
+            background-color: hsl(240, 77%, 22%);
+            padding: 10px;
+            font-size: 20px;
+        }
+        #menu{
+            text-align: center;
+        }
+        #menu li{
+            display: inline;
+            margin-left: 30px;
+        }
+        #menu a{
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            display: inline-block;
+            text-decoration: none;
+            /* background-color: red; */
+        }
+        .text-place{
+            text-align: center;
+            font-weight: 1000;
+            padding-top: 14px;
+        }
+        .image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img{
+            width: 400px;
+            height: 400px;
+            display: block;
+        }
+        p{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 10px 10px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            box-shadow:0 0 20px black;
+            color: white;
+        }
+        #hash{
+            text-decoration: none;
+        }
+        #menu a:hover{
+            /* color: red; */
+            background-color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-id">
+        <ul id="menu">
+            <li><a href="#trips">TRIPS</a></li>
+            <li><a href="./places/about.html">ABOUT</a></li>
+            <li><a href="/places/contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div>
+            <img src="./img/143-Iceland.webp" alt="place" width="100%" height="600px">
+    </div>
+    <div>
+        <h2 class="text-place" id="trips">My Travel Diary</h2>
+    </div>
+    <div class="image-container">
+        <a id="hash" href="./places/iceland.html"><p><img src="./img/73.webp"  alt="e">Iceland</p></a> 
+        <a id="hash" href="./places/germany.html"><p><img src="./img/Germany.webp" alt="e">Germany</p></a>
+        <a id="hash" href="./places/greece.html"><p><img src="./img/Greece.webp" alt="e">Greece</p></a>
+    </div>
+    <div class="image-container">
+        <a id="hash" href="./places/atlantic.html"><p><img src="./img/Atlantic-City1.webp" alt="e">Atlantic</p></a>
+        <a id="hash" href="./places/canada.html"><p><img src="./img/Canada.webp" alt="e">Canada</p></a>
+        <a id="hash"  href="./places/france.html"> <p><img src="./img/France.webp" alt="e">France</p></a>
+    </div>
+    <div class="image-container">
+        <a id="hash" href="./places/paris.html"><p><img src="./img/paris.webp" alt="e">paris</p></a>
+        <a id="hash" href="./places/spain.html"><P><img src="./img/Spain.webp" alt="e">Spain</P></a> 
+        <a id="hash" href="./places/france.html"><p><img src="./img/th.webp" alt="e">TownHall</p></a> 
+    </div>
+</body>
+</html>
